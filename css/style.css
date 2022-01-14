@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+body, html { overflow-x:hidden; }
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* Cryptop CSS Start Here */
+
+/* sweeper start */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* swiper end */
+
+/* Header Section Start */
+
+img{
+max-width:100%;
+}
+.header{
+    width: 100%;
+    background: #151618;
+    position: fixed;
+;
+}
+
+.header .bg-light{
+    background: transparent!important;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 15px 0px 0px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.header .navbar-light .navbar-nav .nav-link.active{
+   background: url("../images/hrline.png") center bottom no-repeat;
+   background-size: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	color: #fffefe;
+    background: url(../images/hrline.png) center bottom no-repeat;
+    background-size: auto;
+}
+
+
+
+/* Header Section End */
+
+/* Banner Section Start */
+
+.banner-section{
+    width: 100%;
+    padding: 130px 0px;
+    background: url("../images/banner1.png") center top no-repeat;
+    background-size: cover;
+    background-color: #582fd7;
+    margin: 0px 30px 0px 0px;
+   
+}
+
+.banner-section h1 {
+    font-size: 50px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fff;
+    margin: 45px 0px 0px 0px;
+}
+
+
+.banner-section p{
+    font-size: 38px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin: 25px 0px 0px 0px;
+
+}
+
+.banner-section .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 35px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #30ae69;
+    border:0px;
+
+}
+
+
+.banner-section .btn-success:hover, .banner-section .btn-success:focus{
+	background-color: transparent;
+	color: #30ae69;
+	border-color: #000;
+}
+
+/* Banner Section End */
+
+/* About Section Start */
+.about-section{
+    width: 100%;
+    padding: 65px 0px;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.about-section h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0b0909;
+    margin: 0px;
+}
+
+.about-section h1:hover{
+    color: #30ae69;
+}
+
+.about-section img{
+    margin: 15px 0px 15px 0px;
+}
+
+/* about ipbs image paragraph button secton */
+.about-ipbs{
+    width: 100%;
+    margin-top: 95px;
+}
+
+.about-ipbs p{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #2e2d2d;
+    margin: -100px 0px 0px 0px;
+}
+
+.about-ipbs .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 35px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #30ae69;
+    border:0px;
+
+}
+
+
+.about-ipbs .btn-success:hover, .about-ipbs .btn-success:focus{
+	background-color: transparent;
+	color: #30ae69;
+	border-color: #000;
+}
+/* About Section End */
+
+/* How It Works Section Start */
+
+.how-it-works{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.how-it-works h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0b0909;
+    margin: 0px;
+}
+
+
+.how-it-works h1:hover{
+    color: #30ae69;
+
+}
+
+.how-it-works .fa-map-o:hover, .fa-desktop:hover, .fa-btc:hover, .fa-credit-card:hover{
+    color:#fff;
+ }
+
+
+.how-it-works .fa-map-o, .fa-desktop, .fa-btc, .fa-credit-card{
+   font-size: 50px;
+   margin: 20px 0px;
+   color:#3F5068;
+}
+
+
+/* how inner section  */
+
+.how-inner-section{
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+}
+.how-inner-section .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border: 1px solid #eee;
+	border-radius: 100%;
+    color: #f6f5f7;
+	margin: 0px auto;
+}
+
+.how-inner-section .icon img{
+	width: 60px;
+	height: 55px;
+	
+}
+.how-inner-section .icon:hover{
+    background: #30ae69;
+}
+
+.how-inner-section .icon:hover .fa-map-o,.how-inner-section .icon:hover, .how-inner-section .icon:hover .fa-desktop, .how-inner-section .icon:hover .fa-btc, .how-inner-section .icon:hover .fa-credit-card{
+    color: #fff;
+}
+
+
+
+
+.how-inner-section h4{
+	font-size: 22px;
+	line-height: 32px;
+	margin-top: 20px;
+	color: #2d2d2d;
+}
+
+
+
+.how-inner-section p{
+	color: #393a3c;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* Read More Button */
+.read-more{
+    width: 100%;
+    padding: 2px 0px;
+}
+
+.read-more .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 35px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #30ae69;
+    border:0px;
+
+}
+
+
+.read-more .btn-success:hover, .read-more .btn-success:focus{
+	background-color: transparent;
+	color: #30ae69;
+	border-color: #000;
+}
+/* How It Works Section End */
+
+/* Download Now PlayStore Banner Section Start */
+.download-now-feature{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/banner2.png")center top no-repeat;
+    background-size: cover;
+    margin:40px 0px;
+}
+
+/* Download Inner */
+
+.download-inner{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.download-inner h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0px 12px 0px;
+}
+
+.download-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff; 
+    margin: 0px 0px 50px 0px; 
+}
+
+.download-inner .btn-success{
+    margin: 0px 10px 0px 0px;
+    
+}
+
+.download-inner img{
+    margin: 0px 10px 0px 0px;
+    
+}
+
+.download-inner .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 0px 10px 0px 0px;
+	padding: 6px 15px;
+	background-color: #000;
+    border:0px;
+
+}
+
+
+.download-inner .btn-success:hover, .download-inner .btn-success:focus{
+	background-color: transparent;
+	color: #30ae69;
+	border-color: #000;
+}
+
+
+/* Download Now PlayStore Banner Section End */
+
+/* Sautomatic Section Start */
+.sautomatic-section{
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.sautomatic-section h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0b0909;
+    margin: 0px;
+}
+
+.sautomatic-section h1:hover{
+    color: #30ae69;
+}
+
+.sautomatic-section img{
+    margin: 15px 0px 15px 0px;
+}
+
+/* sautomatic ipbs image paragraph button secton */
+.sautomatic-ipbs{
+    width: 100%;
+    margin-top: 95px;
+}
+
+.sautomatic-ipbs p{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #2e2d2d;
+    margin: 50px 0px 0px 0px;
+}
+
+.sautomatic-ipbs .btn-success{
+    font-size: 16px;
+	line-height: 24px;
+	margin: 35px 0px 0px 0px;
+	padding: 10px 30px;
+	background-color: #30ae69;
+    border:0px;
+
+}
+
+
+.sautomatic-ipbs .btn-success:hover, .sautomatic-ipbs .btn-success:focus{
+	background-color: transparent;
+	color: #30ae69;
+	border-color: #000;
+}
+/* Sautomatic Section End */
+
+
+/* testimonials css start */
+
+.testimonials-section{
+    width: 100%;
+    padding: 40px 0px;
+    margin: 0px 0px 25px;
+
+}
+
+.testimonials-top-text h1{
+    font-weight: 700;
+    font-size: 36px;
+   
+}
+
+.testimonials-top-text h1:hover{
+    color: #30ae69;
+}
+
+
+.inner-testimonials-content img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 30px 0px 0px;
+}
+
+
+.inner-testimonials-content{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.inner-testimonials-content p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0px 15px 40px;
+}
+/* testimonials css end */
+
+
+
+/* Footer Section Start */
+.footer-section{
+    width: 100%;
+    padding: 70px 0px 25px;
+    
+    background: #171717;
+
+   
+}
+
+.footer-section h1{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0px 0px 0px;
+
+
+}
+.footer-section img{
+    margin: 32px 0px 0px 0px;
+  
+}
+
+.footer-section p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fffcf4;
+    margin: 15px 0px 0px 0px;
+}
+
+
+/* about Shop start */
+
+.about-shop{
+    width: 100%;
+    margin: 0px 0px 90px 0px;
+}
+
+.about-shop ul{
+    padding: 0px;
+
+}
+
+.about-shop ul li{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+
+.about-shop ul li a{
+    color: #fffcf4;
+    font-size: 14px;
+    font-weight: 500;
+    
+
+}
+
+/* about Shop End */
+.terms{
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+}
+
+.terms ul{
+    padding: 0px;
+
+}
+
+.terms ul li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.terms ul li a{
+    color: #fffcf4;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* Contact Section */
+.contact ul{
+	padding: 0px;
+
+}
+
+
+.contact ul li{
+	list-style: none;
+	margin: 15px 0px;
+	font-size: 14px;
+	line-height: 18px;
+    color: #fff;
+}
+
+
+.contact ul li img{
+	margin: 0px 10px 0px 2px;
+    width: 18px;
+    height: 14px;
+    
+}
+
+/* Copyright Section */
+.copyright{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.copyright h6{
+    font-size: 12px;
+    font-weight: 400;
+    color:#bbb;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 0px;
+
+}
+/* Footer Section End */
